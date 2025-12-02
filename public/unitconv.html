@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中学受験 単位換算表</title>
+    <style>
+        body {
+            font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            background-color: #eaf2f8;
+            padding: 10px 15px;
+            border-left: 6px solid #3498db;
+            color: #2980b9;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #444;
+            width: 30%;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #fdfdfd;
+        }
+        tr:hover {
+            background-color: #f0f8ff;
+        }
+        .unit-main {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #d35400;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .important-box {
+            background-color: #fff8e1;
+            border: 2px solid #ffe0b2;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .important-title {
+            font-weight: bold;
+            color: #e67e22;
+            margin-bottom: 5px;
+            display: block;
+        }
+        @media print {
+            body { background-color: #fff; }
+            .container { box-shadow: none; padding: 0; }
+            h2 { -webkit-print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>中学受験 単位換算一覧表</h1>
+
+    <section>
+        <h2>1. 長さ（基本単位：m）</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>単位</th>
+                    <th>換算</th>
+                    <th>ポイント</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="unit-main">1 km</span></td>
+                    <td>1000 m</td>
+                    <td>k（キロ）は1000倍</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 m</span></td>
+                    <td>100 cm</td>
+                    <td>c（センチ）は1/100</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 cm</span></td>
+                    <td>10 mm</td>
+                    <td>m（ミリ）は1/1000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>2. 面積（基本単位：m<sup>2</sup>）</h2>
+        <div class="important-box">
+            <span class="important-title">★ここが最重要！</span>
+            単位が1つ小さくなるごとに、<strong>0が2つ</strong>増えます（100倍になる）。
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>単位</th>
+                    <th>換算</th>
+                    <th>イメージ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="unit-main">1 km<sup>2</sup></span></td>
+                    <td>100 ha</td>
+                    <td>1km × 1km</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 ha</span></td>
+                    <td>100 a</td>
+                    <td>100m × 100m</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 a</span></td>
+                    <td>100 m<sup>2</sup></td>
+                    <td>10m × 10m（教室くらい）</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 m<sup>2</sup></span></td>
+                    <td>10000 cm<sup>2</sup></td>
+                    <td>100cm × 100cm</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>3. 体積・かさ（基本単位：L, cm<sup>3</sup>）</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>単位</th>
+                    <th>換算</th>
+                    <th>備考</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="unit-main">1 kL</span></td>
+                    <td>1000 L</td>
+                    <td>1m<sup>3</sup> と同じ量</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 L</span></td>
+                    <td>10 dL</td>
+                    <td>d（デシ）は1/10</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 L</span></td>
+                    <td>1000 mL</td>
+                    <td>牛乳パック1本分</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 mL</span></td>
+                    <td>1 cc</td>
+                    <td>料理などで使う</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="important-box">
+            <span class="important-title">★体積とかさの架け橋（暗記必須）</span>
+            <ul>
+                <li><strong>1 L = 1000 cm<sup>3</sup></strong></li>
+                <li><strong>1 mL = 1 cm<sup>3</sup></strong></li>
+                <li><strong>1 m<sup>3</sup> = 1,000,000 cm<sup>3</sup></strong>（0が6個！）</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. 重さ（基本単位：g）</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>単位</th>
+                    <th>換算</th>
+                    <th>備考</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="unit-main">1 t</span></td>
+                    <td>1000 kg</td>
+                    <td>車などの重さ</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 kg</span></td>
+                    <td>1000 g</td>
+                    <td>k（キロ）は1000倍</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 g</span></td>
+                    <td>1000 mg</td>
+                    <td>m（ミリ）は1/1000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>5. 時間（60進法）</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>単位</th>
+                    <th>換算</th>
+                    <th>秒への変換</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="unit-main">1 日</span></td>
+                    <td>24 時間</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 時間</span></td>
+                    <td>60 分</td>
+                    <td>3600 秒</td>
+                </tr>
+                <tr>
+                    <td><span class="unit-main">1 分</span></td>
+                    <td>60 秒</td>
+                    <td>60 秒</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
+
+</body>
+</html>
